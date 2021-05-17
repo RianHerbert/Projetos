@@ -1,0 +1,12 @@
+
+
+
+create table Teste
+(
+	Descricao varchar(50) null,
+	Complemento char(10) not null
+)
+
+insert Teste values('a', 'a')
+
+select * from Teste
